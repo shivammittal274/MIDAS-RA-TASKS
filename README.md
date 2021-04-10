@@ -9,7 +9,8 @@ Task-2 was a quite simpler task. Where we have to build a CNN model and train on
 
 This task was quite simpler, I first used ImageDataGenerator and then trained CNN model on train generator and checked validation accuracy on validation_generator. 
 
-And Taks-3 was quite challenging.Dataset link:(https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEON0I/edit?usp=sharing) 
+And Taks-3 was quite challenging.Dataset link:(https://docs.google.com/spreadsheets/d/1pLv0fNE4WHokpJHUIs-FTVnmI9STgog05e658qEON0I/edit?usp=sharing)
+
 I dealt with it by different kinds of approaches. This task was to identify primary categories of that product by using product description as main feature only. As, in given dataset there were many primary categories. But i chose top occuring 15 primary categories only as they were more important and hold value. (I chose that by data analysis of dataset which I have done in my notebook) Then I used CountVectorizer and TF-IDF vectorizer and trained different ML algorithms like KNN, Multinomial Naive Bayes, Random Forest Classifier, LGBM classifier etc. Then I moved to deep learning techniques. I trained a simple LSTM model and used Keras-inbuilt Tokenizer for that. I used very basic LSTM model. It even gave quite good accuracy. By changing/modelling architecture, We could get quite good accuracy. But my main objective during this task was to apply good variety of NLP techniques and get decent accuracy. Then I used Bert tokenizer also in another notebook, which also gave quite good accuracy.
 
 So, thats about my both tasks. My main objective in both taks to learn more and apply different techniques in both taks. If you want to see my other work, you can see my kaggle profile as well:) https://www.kaggle.com/shivammittal274
